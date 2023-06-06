@@ -1,0 +1,48 @@
+.mainTitle {
+    font-size: 5em;
+}
+.selectTitle {
+    margin: 20px 0;
+}
+.items {
+    display: flex;
+    gap: 50px;
+}
+.item {
+    border: 5px solid #bbb;
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.item:nth-child(1) {
+    background: url('/livreur1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item:nth-child(2) {
+    background: url('/livreur2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item:nth-child(3) {
+    background: url('/livreur3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #f6953d;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.856);
+    padding: 5px 10px;
+    border-radius: 20px 0 0 0;
+}
+.item:hover .title {
+    color: #bbb;
+}

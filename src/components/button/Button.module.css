@@ -1,0 +1,15 @@
+.button {
+    width: max-content;
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #7862e7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+.button:active {
+    transform: scale(.98);
+}

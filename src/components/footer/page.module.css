@@ -1,0 +1,25 @@
+.container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-top: 1px solid gray; */
+}
+.footerPara {
+    color: #f6953d;
+    font-size: .8em;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footerIcon {
+    cursor: pointer;
+}
+.footerIcon:hover {
+    opacity: .8;
+}
+.footerLogo {
+    color: #7862e7;
+}
